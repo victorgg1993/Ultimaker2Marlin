@@ -21,6 +21,7 @@ unsigned long lastSerialCommandTime;
 bool serialScreenShown;
 uint8_t led_brightness_level = 100;
 uint8_t led_mode = LED_MODE_ALWAYS_ON;
+uint8_t beep_mode = BEEP_MODE_ALWAYS_ON;
 float dsp_temperature[EXTRUDERS] = { 20.0 };
 float dsp_temperature_bed = 20.0;
 
