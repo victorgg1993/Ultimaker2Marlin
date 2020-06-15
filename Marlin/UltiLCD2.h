@@ -21,12 +21,15 @@ void doCooldown();
 extern unsigned long lastSerialCommandTime;
 extern uint8_t led_brightness_level;
 extern uint8_t led_mode;
+extern uint8_t beep_mode;
 extern float dsp_temperature[EXTRUDERS];
 extern float dsp_temperature_bed;
 #define LED_MODE_ALWAYS_ON      0
 #define LED_MODE_ALWAYS_OFF     1
 #define LED_MODE_WHILE_PRINTING 2
 #define LED_MODE_BLINK_ON_DONE  3
+#define BEEP_MODE_ALWAYS_ON     0
+#define BEEP_MODE_ALWAYS_OFF    1
 
 void lcd_menu_main();
 
